@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Pet Food Website Design Tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="sl.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-paw"></i> shop </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="shop.html">SHOP</a>
+        <a href="videogallery.html">GALLERY</a>
+          <a href="blog.html">BLOG</a>
+        <a href="contactus.html">CONTACT US</a>
+        <a href="">ABOUT US</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>sign in</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <div class="links">
+            <a href="#">forget password</a>
+            <a href="#">sign up</a>
+        </div>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+    <section>
+            <div class="circle"></div> 
+            <div class="content">
+                <div class="textbox">
+                    <h2>We Know you love your Pet more<br><span>Great Price, Great Pets
+</span></h2>
+                    <p>Welcome to the new WebMD Pet Health Center. WebMD veterinary experts provide comprehensive information about pet health care, offer nutrition and feeding</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div class="imgbox">
+                    <img src="https://freepngimg.com/thumb/dog/52-dog-png-image-picture-download-dogs-thumb.png" class="starbucks">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li> <img src="https://freepngimg.com/thumb/dog/52-dog-png-image-picture-download-dogs-thumb.png" onclick="imgslider('https://freepngimg.com/thumb/dog/15-dog-png-image-picture-download-dogs.png');changeCircleColor('black')"></li>
+                <li> <img src="https://freepngimg.com/thumb/dog/52-dog-png-image-picture-download-dogs-thumb.png" onclick="imgslider('https://freepngimg.com/thumb/dog/15-dog-png-image-picture-download-dogs.png');changeCircleColor('purple')"></li>
+                <li> <img src="https://freepngimg.com/thumb/dog/52-dog-png-image-picture-download-dogs-thumb.png" onclick="imgslider('https://freepngimg.com/thumb/dog/15-dog-png-image-picture-download-dogs.png');changeCircleColor('green')"></li>
+            </ul>
+        </section>
+
+
+
+ <section class="section-2">
+            <h1 class="section-heading">NEW ARRIVALS</h1>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcGZ4Ew2ftn3esbREcRuZoHwJ4jQ8GI48wHaET35p8gWDVgoB-k4IenByb0vvuNx2RBz4&usqp=CAU" class="card-img">
+                    <h3 class="card-name">BIRD</h3>
+                    <button class="card-btn">Order now</button>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTES5ASS_3JZxAqFUOhDzEk_v8kIB-GvQ_f0kpj-PZiXRpqIDYeGGU84DQKrJCDQ6FI6sc&usqp=CAU" class="card-img">
+                    <h3 class="card-name">CAT</h3>
+                    <button class="card-btn">Order now</button>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc7Mah_ebhWl21Cb4MbzDEwINu7191ci573__sgqw2lo2nWtXH6pJHS_NPmKvX-eHkXGE&usqp=CAU" class="card-img">
+                    <h3 class="card-name">DOG</h3>
+                    <button class="card-btn">Order now</button>
+                </div>
+            </div>
+        </section>
+
+<!-- shop section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-dog"></i>
+            <h3>dog boarding</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-cat"></i>
+            <h3>cat boarding</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bath"></i>
+            <h3>spa & grooming</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-drumstick-bite"></i>
+            <h3>healthy meal</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-baseball-ball"></i>
+            <h3>activity exercise</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>health care</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- plan section starts  -->
+
+<section class="plan" id="plan">
+
+    <h1 class="heading"> choose a <span>plan</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">pet care</h3>
+            <h3 class="day"> 1 day </h3>
+            <i class="fas fa-dog icon"></i>
+            <div class="list">
+                <p><span class="fas fa-hotel" style="color: black;"></span>PET ROOM<span class="fas fa-check"></span> </p>
+                <p> <span class="fas fa-spa" style="color: black;"></span>PET GROOMING<span class="fas fa-check-circle"></span></p>
+                <p> <span class="fas fa-hotel" style="color: black;"></span>PET EXERCISE<span class="fas fa-check"></span> </p>
+                <p> <span class="fas fa-drumstick-bite" style="color: black;"></span>PET MEALS<span class="fas fa-check"></span> </p>
+            </div>
+            <div class="amount"><span>$</span>50</div>
+            <a href="chose.html" class="btn"> choose plan </a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">pet care</h3>
+            <h3 class="day"> 10 days </h3>
+            <i class="fas fa-cat icon"></i>
+            <div class="list">
+               <p><span class="fas fa-hotel" style="color: black;"></span>PET ROOM<span class="fas fa-check"></span> </p>
+                <p> <span class="fas fa-spa" style="color: black;"></span>PET GROOMING<span class="fas fa-check"></span></p>
+                <p> <span class="fas fa-hotel" style="color: black;"></span>PET EXERCISE<span class="fas fa-check"></span> </p>
+                <p> <span class="fas fa-drumstick-bite" style="color: black;"></span>PET MEALS<span class="fas fa-check"></span> </p>
+            </div>
+            <div class="amount"><span>Rs</span>350</div>
+            <a href="#" class="btn"> choose plan </a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">pet care</h3>
+            <h3 class="day"> 30 days </h3>
+            <i class="fas fa-dove icon"></i>
+            <div class="list">
+               <p><span class="fas fa-hotel" style="color: black;"></span>PET ROOM<span class="fas fa-check"></span> </p>
+                <p> <span class="fas fa-spa" style="color: black;"></span>PET GROOMING<span class="fas fa-check"></span></p>
+                <p> <span class="fas fa-hotel" style="color: black;"></span>PET EXERCISE<span class="fas fa-check"></span> </p>
+                <p> <span class="fas fa-drumstick-bite" style="color: black;"></span>PET MEALS<span class="fas fa-check"></span> </p>
+            </div>
+            <div class="amount"><span>Rs</span>650</div>
+            <a href="#" class="btn"> choose plan </a>
+        </div>
+
+    </div>
+    </section>
+    <section class="review" id="review">
+
+<h1 class="heading"> customer's <span>review</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt" style="color: gold;"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores laboriosam praesentium enim maiores? Ad repellat voluptates alias facere repudiandae dolor accusamus enim ut odit, aliquam nesciunt eaque nulla dignissimos.</p>
+        <div class="user">
+            <img src="https://image.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="">
+            <div class="user-info">
+                <h3>john deo</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"style="color: black;"></i>
+            <i class="fas fa-star"style="color: black;"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores laboriosam praesentium enim maiores? Ad repellat voluptates alias facere repudiandae dolor accusamus enim ut odit, aliquam nesciunt eaque nulla dignissimos.</p>
+        <div class="user">
+            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+            <div class="user-info">
+                <h3>john deo</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star" style="color: black;"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores laboriosam praesentium enim maiores? Ad repellat voluptates alias facere repudiandae dolor accusamus enim ut odit, aliquam nesciunt eaque nulla dignissimos.</p>
+        <div class="user">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
+            <div class="user-info">
+                <h3>john deo</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+</div>
+</section>
+    <footer class="footer-distributed">
+
+			<div class="footer-left">
+          <i class="fas fa-paw"style="font-size:120px;color:white;"></i>
+				<h3>About<span>Eduonix</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">Blog</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">©️ 2019 Eduonix Learning Solutions Pvt. Ltd.</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker-alt"></i>
+					  <p><span>309 - Rupa Solitaire,
+						 Bldg. No. A - 1, Sector - 1</span>
+						Mahape, Navi Mumbai - 400710</p>
+				</div>
+
+				<div>
+					<i class="fas fa-fax"></i>
+					<p>+91 22-27782183</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@eduonix.com">support@eduonix.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+<script src="cript.js"></script>
+</body>
+</html>
